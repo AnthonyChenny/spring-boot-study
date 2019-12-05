@@ -63,7 +63,7 @@ public class User {
 public interface UserRepository extends JpaRepository<User, Integer> {
 }
 ```
-不需要写方法,底层已经实现了crud的方法
+不需要写方法,底层已经实现了crud的方法<br>
 4. 配置jpa的yml文件
 ```xml
 jpa:
